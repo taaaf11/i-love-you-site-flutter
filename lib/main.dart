@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           decoration: BoxDecoration(
             color: Color(0xff121212),
-            border: Border.all(width: 2.0),
+            border: Border.all(width: 2.0, color: Colors.transparent),
             borderRadius: BorderRadius.circular(20),
           ),
           padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
