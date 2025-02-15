@@ -74,7 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 Text(
-                  "By ♥ from $name",
+                  // "By ♥ from $name",
+                  "From $name, with ♥",
                   style: TextStyle(
                     color: Color(0xffffffff),
                     fontFamily: "Comfortaa",
